@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD27F4B5145026A4007DB9AB /* Alt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD27F4B4145026A4007DB9AB /* Alt.jpg */; };
+		CD27F4B814502734007DB9AB /* Alt1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD27F4B714502734007DB9AB /* Alt1.jpg */; };
+		CD27F4BA145027A5007DB9AB /* Alt2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD27F4B9145027A5007DB9AB /* Alt2.jpg */; };
+		CD5839C51430C221006823B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839C41430C221006823B7 /* UIKit.framework */; };
+		CD5839C71430C221006823B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839C61430C221006823B7 /* Foundation.framework */; };
+		CD5839C91430C221006823B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839C81430C221006823B7 /* CoreGraphics.framework */; };
+		CD5839CF1430C221006823B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD5839CD1430C221006823B7 /* InfoPlist.strings */; };
+		CD5839D11430C221006823B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5839D01430C221006823B7 /* main.m */; };
+		CD5839D51430C221006823B7 /* OCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5839D41430C221006823B7 /* OCAppDelegate.m */; };
+		CD5839D81430C221006823B7 /* OCFirstViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5839D71430C221006823B7 /* OCFirstViewController.mm */; };
+		CD5839DA1430C221006823B7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5839D91430C221006823B7 /* first.png */; };
+		CD5839DC1430C221006823B7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5839DB1430C221006823B7 /* first@2x.png */; };
+		CD5839DF1430C221006823B7 /* OCSecondViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5839DE1430C221006823B7 /* OCSecondViewController.mm */; };
+		CD5839E11430C221006823B7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5839E01430C221006823B7 /* second.png */; };
+		CD5839E31430C221006823B7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5839E21430C221006823B7 /* second@2x.png */; };
+		CD5839E61430C221006823B7 /* OCFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5839E41430C221006823B7 /* OCFirstViewController.xib */; };
+		CD5839E91430C221006823B7 /* OCSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5839E71430C221006823B7 /* OCSecondViewController.xib */; };
+		CD5839F01430C23C006823B7 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839EF1430C23C006823B7 /* OpenCV.framework */; };
+		CD5839F21430C24A006823B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839F11430C24A006823B7 /* AVFoundation.framework */; };
+		CD5839F41430C255006823B7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839F31430C255006823B7 /* ImageIO.framework */; };
+		CD5839F61430C265006823B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5839F51430C265006823B7 /* libz.dylib */; };
+		CD5839F81430C484006823B7 /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD5839F71430C484006823B7 /* lena.jpg */; };
+		CD9AE3011438A42C002D5607 /* OCThirdViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD9AE2FF1438A42B002D5607 /* OCThirdViewController.mm */; };
+		CD9AE3021438A42C002D5607 /* OCThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE3001438A42B002D5607 /* OCThirdViewController.xib */; };
+		CD9AE30A1439C06F002D5607 /* building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD9AE3091439C06F002D5607 /* building.jpg */; };
+		CDD9F79F14681C9500372FE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD9F79E14681C9500372FE9 /* AssetsLibrary.framework */; };
+		CDD9F7A114681D9900372FE9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD9F7A014681D9900372FE9 /* CoreVideo.framework */; };
+		CDD9F7A314681DA000372FE9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD9F7A214681DA000372FE9 /* CoreMedia.framework */; };
+		CDD9F7AB1468225D00372FE9 /* CaptureSessionManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDD9F7AA1468225D00372FE9 /* CaptureSessionManager.mm */; };
+		CDD9F7AF14682F4800372FE9 /* OCFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9F7AD14682F4800372FE9 /* OCFifthViewController.m */; };
+		CDD9F7B014682F4800372FE9 /* OCFifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD9F7AE14682F4800372FE9 /* OCFifthViewController.xib */; };
+		CDD9F7B31468437F00372FE9 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD9F7B11468437F00372FE9 /* overlaygraphic.png */; };
+		CDD9F7B41468437F00372FE9 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD9F7B21468437F00372FE9 /* scanbutton.png */; };
+		CDECB35E145013C400632CFB /* OCFourthViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDECB35C145013C400632CFB /* OCFourthViewController.mm */; };
+		CDECB35F145013C400632CFB /* OCFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDECB35D145013C400632CFB /* OCFourthViewController.xib */; };
+		CDECB3631450186A00632CFB /* Steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDECB3621450186A00632CFB /* Steve.jpg */; };
+		CDECB365145019FE00632CFB /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = CDECB364145019FE00632CFB /* haarcascade_frontalface_alt_tree.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD27F4B4145026A4007DB9AB /* Alt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alt.jpg; sourceTree = "<group>"; };
+		CD27F4B714502734007DB9AB /* Alt1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alt1.jpg; sourceTree = "<group>"; };
+		CD27F4B9145027A5007DB9AB /* Alt2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alt2.jpg; sourceTree = "<group>"; };
+		CD5839C01430C221006823B7 /* OpenCVBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5839C41430C221006823B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD5839C61430C221006823B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD5839C81430C221006823B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD5839CC1430C221006823B7 /* OpenCVBasics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVBasics-Info.plist"; sourceTree = "<group>"; };
+		CD5839CE1430C221006823B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD5839D01430C221006823B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5839D21430C221006823B7 /* OpenCVBasics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVBasics-Prefix.pch"; sourceTree = "<group>"; };
+		CD5839D31430C221006823B7 /* OCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAppDelegate.h; sourceTree = "<group>"; };
+		CD5839D41430C221006823B7 /* OCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAppDelegate.m; sourceTree = "<group>"; };
+		CD5839D61430C221006823B7 /* OCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCFirstViewController.h; sourceTree = "<group>"; };
+		CD5839D71430C221006823B7 /* OCFirstViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCFirstViewController.mm; sourceTree = "<group>"; };
+		CD5839D91430C221006823B7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CD5839DB1430C221006823B7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CD5839DD1430C221006823B7 /* OCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSecondViewController.h; sourceTree = "<group>"; };
+		CD5839DE1430C221006823B7 /* OCSecondViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCSecondViewController.mm; sourceTree = "<group>"; };
+		CD5839E01430C221006823B7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CD5839E21430C221006823B7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CD5839E51430C221006823B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OCFirstViewController.xib; sourceTree = "<group>"; };
+		CD5839E81430C221006823B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OCSecondViewController.xib; sourceTree = "<group>"; };
+		CD5839EF1430C23C006823B7 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
+		CD5839F11430C24A006823B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD5839F31430C255006823B7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CD5839F51430C265006823B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CD5839F71430C484006823B7 /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
+		CD9AE2FE1438A42B002D5607 /* OCThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCThirdViewController.h; sourceTree = "<group>"; };
+		CD9AE2FF1438A42B002D5607 /* OCThirdViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCThirdViewController.mm; sourceTree = "<group>"; };
+		CD9AE3001438A42B002D5607 /* OCThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCThirdViewController.xib; sourceTree = "<group>"; };
+		CD9AE3091439C06F002D5607 /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
+		CDD9F79E14681C9500372FE9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CDD9F7A014681D9900372FE9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CDD9F7A214681DA000372FE9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CDD9F7A91468225D00372FE9 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; name = CaptureSessionManager.h; path = OpenCVBasics/CaptureSessionManager.h; sourceTree = "<group>"; };
+		CDD9F7AA1468225D00372FE9 /* CaptureSessionManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CaptureSessionManager.mm; path = OpenCVBasics/CaptureSessionManager.mm; sourceTree = "<group>"; };
+		CDD9F7AC14682F4800372FE9 /* OCFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCFifthViewController.h; path = OpenCVBasics/OCFifthViewController.h; sourceTree = "<group>"; };
+		CDD9F7AD14682F4800372FE9 /* OCFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCFifthViewController.m; path = OpenCVBasics/OCFifthViewController.m; sourceTree = "<group>"; };
+		CDD9F7AE14682F4800372FE9 /* OCFifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OCFifthViewController.xib; path = OpenCVBasics/OCFifthViewController.xib; sourceTree = "<group>"; };
+		CDD9F7B11468437F00372FE9 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		CDD9F7B21468437F00372FE9 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
+		CDECB35B145013C400632CFB /* OCFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFourthViewController.h; sourceTree = "<group>"; };
+		CDECB35C145013C400632CFB /* OCFourthViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCFourthViewController.mm; sourceTree = "<group>"; };
+		CDECB35D145013C400632CFB /* OCFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCFourthViewController.xib; sourceTree = "<group>"; };
+		CDECB3621450186A00632CFB /* Steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Steve.jpg; sourceTree = "<group>"; };
+		CDECB364145019FE00632CFB /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5839BD1430C221006823B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD9F7A314681DA000372FE9 /* CoreMedia.framework in Frameworks */,
+				CDD9F7A114681D9900372FE9 /* CoreVideo.framework in Frameworks */,
+				CDD9F79F14681C9500372FE9 /* AssetsLibrary.framework in Frameworks */,
+				CD5839F61430C265006823B7 /* libz.dylib in Frameworks */,
+				CD5839F41430C255006823B7 /* ImageIO.framework in Frameworks */,
+				CD5839F21430C24A006823B7 /* AVFoundation.framework in Frameworks */,
+				CD5839C51430C221006823B7 /* UIKit.framework in Frameworks */,
+				CD5839C71430C221006823B7 /* Foundation.framework in Frameworks */,
+				CD5839C91430C221006823B7 /* CoreGraphics.framework in Frameworks */,
+				CD5839F01430C23C006823B7 /* OpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2638911468151200412497 /* Fifth View */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9F7A91468225D00372FE9 /* CaptureSessionManager.h */,
+				CDD9F7AA1468225D00372FE9 /* CaptureSessionManager.mm */,
+				CDD9F7B11468437F00372FE9 /* overlaygraphic.png */,
+				CDD9F7B21468437F00372FE9 /* scanbutton.png */,
+				CDD9F7AC14682F4800372FE9 /* OCFifthViewController.h */,
+				CDD9F7AD14682F4800372FE9 /* OCFifthViewController.m */,
+				CDD9F7AE14682F4800372FE9 /* OCFifthViewController.xib */,
+			);
+			name = "Fifth View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CD5839B51430C221006823B7 = {
+			isa = PBXGroup;
+			children = (
+				CD5839CA1430C221006823B7 /* OpenCVBasics */,
+				CD5839C31430C221006823B7 /* Frameworks */,
+				CD5839C11430C221006823B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5839C11430C221006823B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839C01430C221006823B7 /* OpenCVBasics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5839C31430C221006823B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9F7A214681DA000372FE9 /* CoreMedia.framework */,
+				CDD9F7A014681D9900372FE9 /* CoreVideo.framework */,
+				CDD9F79E14681C9500372FE9 /* AssetsLibrary.framework */,
+				CD5839F11430C24A006823B7 /* AVFoundation.framework */,
+				CD5839C81430C221006823B7 /* CoreGraphics.framework */,
+				CD5839C61430C221006823B7 /* Foundation.framework */,
+				CD5839F31430C255006823B7 /* ImageIO.framework */,
+				CD5839F51430C265006823B7 /* libz.dylib */,
+				CD5839EF1430C23C006823B7 /* OpenCV.framework */,
+				CD5839C41430C221006823B7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5839CA1430C221006823B7 /* OpenCVBasics */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839F91430C4D2006823B7 /* Delegates */,
+				CD5839FA1430C4E5006823B7 /* First View */,
+				CD5839FB1430C50E006823B7 /* Second View */,
+				CD5839F71430C484006823B7 /* lena.jpg */,
+				CD9AE3041438A432002D5607 /* Third View */,
+				CDECB361145013CB00632CFB /* Fourth View */,
+				CD2638911468151200412497 /* Fifth View */,
+				CD5839CB1430C221006823B7 /* Supporting Files */,
+			);
+			path = OpenCVBasics;
+			sourceTree = "<group>";
+		};
+		CD5839CB1430C221006823B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839CC1430C221006823B7 /* OpenCVBasics-Info.plist */,
+				CD5839CD1430C221006823B7 /* InfoPlist.strings */,
+				CD5839D01430C221006823B7 /* main.m */,
+				CD5839D21430C221006823B7 /* OpenCVBasics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD5839F91430C4D2006823B7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839D31430C221006823B7 /* OCAppDelegate.h */,
+				CD5839D41430C221006823B7 /* OCAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		CD5839FA1430C4E5006823B7 /* First View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839DB1430C221006823B7 /* first@2x.png */,
+				CD5839D91430C221006823B7 /* first.png */,
+				CD5839D61430C221006823B7 /* OCFirstViewController.h */,
+				CD5839D71430C221006823B7 /* OCFirstViewController.mm */,
+				CD5839E41430C221006823B7 /* OCFirstViewController.xib */,
+			);
+			name = "First View";
+			sourceTree = "<group>";
+		};
+		CD5839FB1430C50E006823B7 /* Second View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5839DD1430C221006823B7 /* OCSecondViewController.h */,
+				CD5839DE1430C221006823B7 /* OCSecondViewController.mm */,
+				CD5839E01430C221006823B7 /* second.png */,
+				CD5839E21430C221006823B7 /* second@2x.png */,
+				CD5839E71430C221006823B7 /* OCSecondViewController.xib */,
+			);
+			name = "Second View";
+			sourceTree = "<group>";
+		};
+		CD9AE3041438A432002D5607 /* Third View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AE3091439C06F002D5607 /* building.jpg */,
+				CD9AE2FE1438A42B002D5607 /* OCThirdViewController.h */,
+				CD9AE2FF1438A42B002D5607 /* OCThirdViewController.mm */,
+				CD9AE3001438A42B002D5607 /* OCThirdViewController.xib */,
+			);
+			name = "Third View";
+			sourceTree = "<group>";
+		};
+		CDECB361145013CB00632CFB /* Fourth View */ = {
+			isa = PBXGroup;
+			children = (
+				CDECB35B145013C400632CFB /* OCFourthViewController.h */,
+				CD27F4B4145026A4007DB9AB /* Alt.jpg */,
+				CD27F4B9145027A5007DB9AB /* Alt2.jpg */,
+				CD27F4B714502734007DB9AB /* Alt1.jpg */,
+				CDECB3621450186A00632CFB /* Steve.jpg */,
+				CDECB364145019FE00632CFB /* haarcascade_frontalface_alt_tree.xml */,
+				CDECB35C145013C400632CFB /* OCFourthViewController.mm */,
+				CDECB35D145013C400632CFB /* OCFourthViewController.xib */,
+			);
+			name = "Fourth View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5839BF1430C221006823B7 /* OpenCVBasics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5839EC1430C221006823B7 /* Build configuration list for PBXNativeTarget "OpenCVBasics" */;
+			buildPhases = (
+				CD5839BC1430C221006823B7 /* Sources */,
+				CD5839BD1430C221006823B7 /* Frameworks */,
+				CD5839BE1430C221006823B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVBasics;
+			productName = OpenCVBasics;
+			productReference = CD5839C01430C221006823B7 /* OpenCVBasics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5839B71430C221006823B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Geeks Incorporated";
+			};
+			buildConfigurationList = CD5839BA1430C221006823B7 /* Build configuration list for PBXProject "OpenCVBasics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD5839B51430C221006823B7;
+			productRefGroup = CD5839C11430C221006823B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5839BF1430C221006823B7 /* OpenCVBasics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5839BE1430C221006823B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5839CF1430C221006823B7 /* InfoPlist.strings in Resources */,
+				CD5839DA1430C221006823B7 /* first.png in Resources */,
+				CD5839DC1430C221006823B7 /* first@2x.png in Resources */,
+				CD5839E11430C221006823B7 /* second.png in Resources */,
+				CD5839E31430C221006823B7 /* second@2x.png in Resources */,
+				CD5839E61430C221006823B7 /* OCFirstViewController.xib in Resources */,
+				CD5839E91430C221006823B7 /* OCSecondViewController.xib in Resources */,
+				CD5839F81430C484006823B7 /* lena.jpg in Resources */,
+				CD9AE3021438A42C002D5607 /* OCThirdViewController.xib in Resources */,
+				CD9AE30A1439C06F002D5607 /* building.jpg in Resources */,
+				CDECB35F145013C400632CFB /* OCFourthViewController.xib in Resources */,
+				CDECB3631450186A00632CFB /* Steve.jpg in Resources */,
+				CDECB365145019FE00632CFB /* haarcascade_frontalface_alt_tree.xml in Resources */,
+				CD27F4B5145026A4007DB9AB /* Alt.jpg in Resources */,
+				CD27F4B814502734007DB9AB /* Alt1.jpg in Resources */,
+				CD27F4BA145027A5007DB9AB /* Alt2.jpg in Resources */,
+				CDD9F7B014682F4800372FE9 /* OCFifthViewController.xib in Resources */,
+				CDD9F7B31468437F00372FE9 /* overlaygraphic.png in Resources */,
+				CDD9F7B41468437F00372FE9 /* scanbutton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5839BC1430C221006823B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5839D11430C221006823B7 /* main.m in Sources */,
+				CD5839D51430C221006823B7 /* OCAppDelegate.m in Sources */,
+				CD5839D81430C221006823B7 /* OCFirstViewController.mm in Sources */,
+				CD5839DF1430C221006823B7 /* OCSecondViewController.mm in Sources */,
+				CD9AE3011438A42C002D5607 /* OCThirdViewController.mm in Sources */,
+				CDECB35E145013C400632CFB /* OCFourthViewController.mm in Sources */,
+				CDD9F7AB1468225D00372FE9 /* CaptureSessionManager.mm in Sources */,
+				CDD9F7AF14682F4800372FE9 /* OCFifthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD5839CD1430C221006823B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5839CE1430C221006823B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD5839E41430C221006823B7 /* OCFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5839E51430C221006823B7 /* en */,
+			);
+			name = OCFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CD5839E71430C221006823B7 /* OCSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5839E81430C221006823B7 /* en */,
+			);
+			name = OCSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5839EA1430C221006823B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD5839EB1430C221006823B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5839ED1430C221006823B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVBasics/OpenCVBasics-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVBasics/OpenCVBasics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD5839EE1430C221006823B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVBasics/OpenCVBasics-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVBasics/OpenCVBasics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5839BA1430C221006823B7 /* Build configuration list for PBXProject "OpenCVBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5839EA1430C221006823B7 /* Debug */,
+				CD5839EB1430C221006823B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5839EC1430C221006823B7 /* Build configuration list for PBXNativeTarget "OpenCVBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5839ED1430C221006823B7 /* Debug */,
+				CD5839EE1430C221006823B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5839B71430C221006823B7 /* Project object */;
+}
